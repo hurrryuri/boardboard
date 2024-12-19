@@ -21,6 +21,7 @@ public class BoardController {
     @GetMapping("/")
     public String index() {
         log.info("시작페이지 이동...");
+        log.info("시작페이지 이동...");
 
         return "redirect:/list"; //페이지 대신 맵핑으로 연결
     }
